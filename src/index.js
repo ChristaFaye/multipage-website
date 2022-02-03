@@ -5,7 +5,7 @@ import Welcome from './components/Welcome';
 import About from './components/About'
 import Contact from './components/Contact';
 import Membership from './components/Membership';
-import Benefits from './components/Benefits';
+import Inclusions from './components/Inclusions';
 import Plans from './components/Plans';
 import Footer from './components/Footer';
 import './css/style.css'
@@ -17,7 +17,7 @@ ReactDOM.render(
     <Welcome />
     <About />
     <Membership />
-    <Benefits />
+    <Inclusions />
     <Plans />
     <Contact />
     <Footer />
