@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Calibri;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header {
+    background-image: linear-gradient( darkslategray, darkcyan);
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+#companyname {
+    height: 4.5rem;
+    margin-left: 2.5rem;
+    padding: .5rem 0;
+}
+
+nav {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .1rem;
+    margin-top: 1.75rem;
+    margin-right: 2.5rem;
+}
+
+nav a {
+    color: lightgray;
+    text-decoration: none;
+    padding: 2rem;
+    
+}
+
+nav a:is(:hover, :focus-visible) {
+    background-color: lightskyblue;
+    color: black;
+    outline: 0;
+}
+
+article,
+#welcome,
+#membership,
+#plans,
+#benefits {
+    max-width: 200ch;
+    padding: 0 1rem;
+    margin: 2rem 2rem;
+}
+
+article section {
+    margin: 2rem 0;
+}
+
+article h1,
+article h2,
+article img {
+    margin-bottom: 1rem;
+}
+
+article li {
+    margin: 0.5rem 0;
+    list-style-position: inside;
+}
+
+#welcome {
+    text-align: center;
+    padding: 2rem;
+}
+
+#welcomeMessage {
+    font-size: 5rem;
+    font-family: Calibri;
+    text-transform: capitalize;
+}
+
+#description {
+    padding: 1rem 5rem;
+    margin: 0 10rem;
+}
+
+
+
+footer {
+    background-image: linear-gradient(darkslategray, darkcyan);
+    color: lightgray;
+    padding: 1rem 0;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: auto;
+}
