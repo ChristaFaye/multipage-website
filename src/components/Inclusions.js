@@ -1,50 +1,61 @@
 import { GiLockers, GiVideoConference } from "react-icons/gi";
-import { MdOutlineVpnKey, MdLocationCity, MdShareLocation, MdCoffeeMaker, MdDirectionsCar, MdWifi} from "react-icons/md";
+import { MdOutlineVpnKey, MdHomeWork, MdPlace, MdCoffeeMaker, MdDirectionsCar, MdWifi, MdContactMail} from "react-icons/md";
 
 function Inclusions() {
     return(
         <div id="inclusions">
-            <h1 id="headingInclusions">Inclusions</h1>
-            <div id="inclusionIcon">
-                <MdLocationCity />
-                <p>Modern Design Workspace</p>
-            </div>
-            
-            <div id="inclusionIcon">
-                <MdShareLocation />
-                <p>Multiple Location</p>
-            </div>
-            <div id="inclusionIcon">
-                <MdOutlineVpnKey />
-                <p>24hr Access</p>
-            </div>
+            <section id="inclusionsLabel">
+                <h1 id="headingInclusions">Inclusions</h1>
+            </section>
 
-            <div id="inclusionIcon">
-                <MdCoffeeMaker />
-                <p>Coffee and Tea</p>
-            </div>
+            <section id="inclusionIcons">
+                <div id="icons">
+                    <MdHomeWork size="3rem"/>
+                    <p>Modern Design</p>
+                </div>
 
-            <div id="inclusionIcon">
-                <MdDirectionsCar />
-                <p>Parking</p>
-            </div>
+                <div id="icons">
+                    <MdPlace size="3rem"/>
+                    <p>Accessible Location</p>
+                </div>
 
-            <div id="inclusionIcon">
-                <MdWifi />
-                <p>Fast Internet</p>
-            </div>
+                <div id="icons">
+                    <MdOutlineVpnKey size="3rem"/>
+                    <p>24-hour Access</p>
+                </div>
 
-            <div id="inclusionIcon">
-                <GiLockers />
-                <p>Lockers</p>
-            </div>
+                <div id="icons">
+                    <MdCoffeeMaker size="3rem"/>
+                    <p>Coffee and Tea</p>
+                </div>
 
-            <div id="inclusionIcon">
-                <GiVideoConference />
-                <p>Conference Rooms</p>
-            </div>
+                <div id="icons">
+                    <MdDirectionsCar size="3rem"/>
+                    <p>Parking</p>
+                </div>
 
-        </div>
+                <div id="icons">
+                    <MdWifi size="3rem"/>
+                    <p>Fast Internet</p>
+                </div>
+
+                <div id="icons">
+                    <GiLockers size="3rem"/>
+                    <p>Lockers</p>
+                </div>
+
+                <div id="icons">
+                    <GiVideoConference size="3rem"/>
+                    <p>Conference Rooms</p>
+                </div>
+
+                <div id="icons">
+                    <MdContactMail size="3rem"/>
+                    <p>Mail Service</p>
+                </div>
+                
+            </section>
+            </div>
     )
 }
 

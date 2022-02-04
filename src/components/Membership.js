@@ -8,7 +8,10 @@ class Membership extends React.Component {
                 <h2 id="register">We got you! Register with us.</h2>
                 <button id="memberBtn">Be a member</button>
                 <button id ="quoteBtn">Request a Quote</button>
+                <hr id="solid"/>
             </div>
+
+            
         )
     }
 }
