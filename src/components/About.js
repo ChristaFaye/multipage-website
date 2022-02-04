@@ -1,13 +1,10 @@
 import React from 'react';
-import Cowork from '../img/about.jpg';
 
 class About extends React.Component {
     render() {
         return(
             <article id="aboutArticle">
-                <section>
-                    <img id="coworkPhoto" src={Cowork} alt="Cowork" />
-                </section>
+                <section id="cowork"> </section>
                 <section id="about">
                     <h2 id="headingAbout">About</h2>
 
