@@ -1,7 +1,10 @@
-function Footer() {
+function Footer(props) {
+
+    const name = "Christa Faye Reyes"
+    const year = "2022"
     return(
         <footer>
-            <small>Christa Faye Reyes  |  copyright &copy; 2022 all rights reserved.</small>
+            <small>{name} | copyright &copy; {year} all rights reserved. </small>
         </footer>
     )
 }

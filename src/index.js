@@ -1,26 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter} from 'react-router-dom';
 import Header from './components/Header';
-import Welcome from './components/Welcome';
-import About from './components/About'
-import Contact from './components/Contact';
-import Membership from './components/Membership';
-import Inclusions from './components/Inclusions';
-import Plans from './components/Plans';
+import App from './App'
 import Footer from './components/Footer';
-import './css/style.css'
+import './css/style.css';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Welcome />
-    <About />
-    <Membership />
-    <Inclusions />
-    <Plans />
-    <Contact />
-    <Footer />
+    <BrowserRouter>
+      <Header
+        home="Home"
+        about="About Us"
+        membership="Membership"
+        inclusions="Inclusions"
+        connect="Connect"
+      />
+      <App />
+      <Footer />
+    </BrowserRouter> 
   </React.StrictMode>,
   document.getElementById('root')
 );
